@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile Page</title>
+    <style>
+        html {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size: 14px;
+            display: flex;
+            justify-content: center;
+            background-color: rgb(136, 130, 196);
+        }
+
+        main {
+            background-color: darkkhaki;
+            padding:10px;
+            padding-top: 5px;
+        }
+
+        nav > ul {
+            list-style: none;
+            display: flex;
+            width: 100%;
+        }
+
+        nav ul li {
+            flex: 1;
+            justify-content: space-evenly;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+        nav ul li a:hover {
+            color: lightblue;
+            text-decoration: underline;
+        }
+        footer{
+            color:white;
+            font-weight: 200;
+            text-align: center;
+            position:fixed;
+            bottom:0;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li> <a href ="#"> About</a></li>
+                <li> <a href ="#"> Contact</a></li>
+                <li> <a href ="#"> Home</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1> Vineet W Singh</h1>
+        <img src="assets/images/PXL_20201120_003146645.MP.jpg"
+        width="315px" height="auto" />
+        <p>I am a web-developer in training.......</p>
+    </main>
+    <footer>
+        Copyright 2020. 
+    </footer>
+</body>
+
+</html>
